@@ -1,0 +1,6 @@
+This group consists of 3 members: Yap Liang Jun, Chew Siew Ting, and Yeo Hong Chew'
+Hardware required to complete the BLINKY milestone: STM32F446 Nucleo-64 & USB A to Mini B cable.
+Software required: STM32 CUBE IDE 1.8.0.
+Steps:
+1) Install the CUBE IDE in the computer and define the workspace and storage directory.
+2)
