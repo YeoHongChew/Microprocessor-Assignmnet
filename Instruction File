@@ -3,4 +3,16 @@ Hardware required to complete the BLINKY milestone: STM32F446 Nucleo-64 & USB A 
 Software required: STM32 CUBE IDE 1.8.0.
 Steps:
 1) Install the CUBE IDE in the computer and define the workspace and storage directory.
-2)
+2) Install the firmware required and add in the library directortory.
+3) Launch the CUBE IDE.
+4) Create the new project BLINKY
+5) Select STM32 F446 NUCLEO 64 as the target board.
+6) Enter the project name, target language as C.
+7) Open C perspective, open and view the main.c.
+8) Insert code in the main loop 
+HAL_Delay(1000)；
+HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin); // map the pin with  main.h, found the led assignment pin
+9) Build and launch a debug session.
+10) Debugger halts at the first statement in main loop.
+11) Continue the process, observe the led blinking on the board.
+12) End the debug session.
